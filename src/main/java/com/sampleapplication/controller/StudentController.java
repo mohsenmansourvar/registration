@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 public class StudentController {
+
     private final StudentService studentService;
 
     @PutMapping(value = "/student")
